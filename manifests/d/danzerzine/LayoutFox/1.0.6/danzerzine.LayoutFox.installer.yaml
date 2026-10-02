@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+PackageIdentifier: danzerzine.LayoutFox
+PackageVersion: 1.0.6
+InstallerType: portable
+Commands:
+- layoutfox
+Dependencies:
+  PackageDependencies:
+  - PackageIdentifier: Microsoft.DotNet.DesktopRuntime.8
+ReleaseDate: 2026-10-02
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/danzerzine/LayoutFox-releases/releases/download/v1.0.6/LayoutFox.exe
+  InstallerSha256: 1682EDA4882CF6767BDD449B4D62EA9F65B99348C98DF8259B90E7BFC61AEAEA
+ManifestType: installer
+ManifestVersion: 1.12.0
